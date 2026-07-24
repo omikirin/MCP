@@ -1,0 +1,15 @@
+{
+  "name": "ninjamcp-worker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NINJAMCP リモートMCPサーバー（Cloudflare Workers版）",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "wrangler": "^4.0.0"
+  }
+}

@@ -1,0 +1,6 @@
+name = "ninjamcp"
+main = "src/index.ts"
+compatibility_date = "2025-06-01"
+
+# デプロイ: cd worker && npx wrangler deploy
+# デプロイ後のMCPエンドポイント: https://ninjamcp.<your-subdomain>.workers.dev/mcp

@@ -68,6 +68,38 @@ stdio トランスポート対応のクライアントなら同じ形式で登�
 
 > `/path/to/MCP` は、このリポジトリを clone した実際のパスに置き換えてください。事前に `npm install && npm run build` が必要です。
 
+## リモートサーバー版（Cloudflare Workers）
+
+`worker/` ディレクトリに、同じ5ツールを HTTP で公開するリモート MCP サーバー（Streamable HTTP・依存ライブラリなし）が入っています。デプロイすると claude.ai の Web / スマホアプリや、URL 指定に対応した MCP クライアントから接続できます。
+
+### デプロイ
+
+```bash
+cd worker
+npm install
+npx wrangler login   # 初回のみ（Cloudflareアカウントが必要・無料枠でOK）
+npx wrangler deploy
+```
+
+デプロイ後の MCP エンドポイントは `https://ninjamcp.<your-subdomain>.workers.dev/mcp` です。
+
+### リモート版への接続
+
+**claude.ai（Web / スマホ）**: 設定 → コネクタ → 「カスタムコネクタを追加」で上記 URL を登録。
+
+**Claude Code**:
+
+```bash
+claude mcp add --transport http NINJAMCP https://ninjamcp.<your-subdomain>.workers.dev/mcp
+```
+
+**Codex CLI（~/.codex/config.toml）**:
+
+```toml
+[mcp_servers.ninjamcp]
+url = "https://ninjamcp.<your-subdomain>.workers.dev/mcp"
+```
+
 ## 開発
 
 ```bash
