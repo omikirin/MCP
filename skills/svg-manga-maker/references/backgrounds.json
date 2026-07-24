@@ -1,0 +1,1502 @@
+{
+ "meta": {
+  "total": 100,
+  "setting_types": {
+   "indoor": "屋内",
+   "outdoor": "屋外",
+   "abstract": "実景でない効果背景"
+  },
+  "usage": "ネームJSONのpanelに background_id として指定。演出カテゴリは実背景の代わりに感情を背負う省略背景",
+  "note": "王道少年・少女・青年漫画の頻出ロケーション+効果背景から選定。key_elementsはSVG背景を組む際の必須要素"
+ },
+ "backgrounds": [
+  {
+   "category": "学校",
+   "name_ja": "教室(授業中)",
+   "setting": "indoor",
+   "mood_tags": [
+    "daily"
+   ],
+   "key_elements": [
+    "机の列",
+    "黒板",
+    "窓からの光"
+   ],
+   "typical_use": "日常会話・授業シーン",
+   "id": "BG001"
+  },
+  {
+   "category": "学校",
+   "name_ja": "教室(放課後・夕方)",
+   "setting": "indoor",
+   "mood_tags": [
+    "nostalgic",
+    "romantic"
+   ],
+   "key_elements": [
+    "夕日",
+    "長い影",
+    "誰もいない机"
+   ],
+   "typical_use": "告白・二人きりの会話",
+   "id": "BG002"
+  },
+  {
+   "category": "学校",
+   "name_ja": "廊下",
+   "setting": "indoor",
+   "mood_tags": [
+    "daily"
+   ],
+   "key_elements": [
+    "窓の連続",
+    "掲示板",
+    "遠近の消失点"
+   ],
+   "typical_use": "移動・すれ違い",
+   "id": "BG003"
+  },
+  {
+   "category": "学校",
+   "name_ja": "昇降口・下駄箱",
+   "setting": "indoor",
+   "mood_tags": [
+    "daily",
+    "romantic"
+   ],
+   "key_elements": [
+    "靴箱の列",
+    "扉の光"
+   ],
+   "typical_use": "待ち伏せ・手紙",
+   "id": "BG004"
+  },
+  {
+   "category": "学校",
+   "name_ja": "屋上",
+   "setting": "outdoor",
+   "mood_tags": [
+    "free",
+    "secret"
+   ],
+   "key_elements": [
+    "フェンス",
+    "空",
+    "給水塔"
+   ],
+   "typical_use": "密談・昼食・決意",
+   "id": "BG005"
+  },
+  {
+   "category": "学校",
+   "name_ja": "体育館",
+   "setting": "indoor",
+   "mood_tags": [
+    "energetic"
+   ],
+   "key_elements": [
+    "コートライン",
+    "高い天井",
+    "窓光"
+   ],
+   "typical_use": "部活・行事",
+   "id": "BG006"
+  },
+  {
+   "category": "学校",
+   "name_ja": "グラウンド",
+   "setting": "outdoor",
+   "mood_tags": [
+    "energetic"
+   ],
+   "key_elements": [
+    "トラック",
+    "ゴール",
+    "土埃"
+   ],
+   "typical_use": "運動部・体育",
+   "id": "BG007"
+  },
+  {
+   "category": "学校",
+   "name_ja": "図書室",
+   "setting": "indoor",
+   "mood_tags": [
+    "quiet"
+   ],
+   "key_elements": [
+    "書架の列",
+    "閲覧席"
+   ],
+   "typical_use": "静かな出会い・調べ物",
+   "id": "BG008"
+  },
+  {
+   "category": "学校",
+   "name_ja": "保健室",
+   "setting": "indoor",
+   "mood_tags": [
+    "quiet",
+    "intimate"
+   ],
+   "key_elements": [
+    "白いカーテン",
+    "ベッド"
+   ],
+   "typical_use": "介抱・さぼり",
+   "id": "BG009"
+  },
+  {
+   "category": "学校",
+   "name_ja": "部室",
+   "setting": "indoor",
+   "mood_tags": [
+    "daily",
+    "cozy"
+   ],
+   "key_elements": [
+    "ロッカー",
+    "雑多な備品"
+   ],
+   "typical_use": "部活日常",
+   "id": "BG010"
+  },
+  {
+   "category": "学校",
+   "name_ja": "職員室",
+   "setting": "indoor",
+   "mood_tags": [
+    "formal"
+   ],
+   "key_elements": [
+    "事務机の列",
+    "書類"
+   ],
+   "typical_use": "呼び出し",
+   "id": "BG011"
+  },
+  {
+   "category": "学校",
+   "name_ja": "校門",
+   "setting": "outdoor",
+   "mood_tags": [
+    "daily"
+   ],
+   "key_elements": [
+    "門柱",
+    "桜並木"
+   ],
+   "typical_use": "登下校・待ち合わせ",
+   "id": "BG012"
+  },
+  {
+   "category": "学校",
+   "name_ja": "階段・踊り場",
+   "setting": "indoor",
+   "mood_tags": [
+    "transition"
+   ],
+   "key_elements": [
+    "手すり",
+    "窓"
+   ],
+   "typical_use": "立ち聞き・すれ違い",
+   "id": "BG013"
+  },
+  {
+   "category": "学校",
+   "name_ja": "中庭",
+   "setting": "outdoor",
+   "mood_tags": [
+    "calm"
+   ],
+   "key_elements": [
+    "ベンチ",
+    "植え込み"
+   ],
+   "typical_use": "昼休み",
+   "id": "BG014"
+  },
+  {
+   "category": "学校",
+   "name_ja": "文化祭の教室",
+   "setting": "indoor",
+   "mood_tags": [
+    "festive"
+   ],
+   "key_elements": [
+    "飾り付け",
+    "模擬店"
+   ],
+   "typical_use": "イベント回",
+   "id": "BG015"
+  },
+  {
+   "category": "住まい",
+   "name_ja": "主人公の自室",
+   "setting": "indoor",
+   "mood_tags": [
+    "private"
+   ],
+   "key_elements": [
+    "ベッド",
+    "勉強机",
+    "散らかり"
+   ],
+   "typical_use": "独白・スマホ",
+   "id": "BG016"
+  },
+  {
+   "category": "住まい",
+   "name_ja": "リビング",
+   "setting": "indoor",
+   "mood_tags": [
+    "family"
+   ],
+   "key_elements": [
+    "ソファ",
+    "テレビ",
+    "食卓"
+   ],
+   "typical_use": "家族団らん",
+   "id": "BG017"
+  },
+  {
+   "category": "住まい",
+   "name_ja": "キッチン",
+   "setting": "indoor",
+   "mood_tags": [
+    "daily",
+    "warm"
+   ],
+   "key_elements": [
+    "コンロ",
+    "流し",
+    "湯気"
+   ],
+   "typical_use": "料理シーン",
+   "id": "BG018"
+  },
+  {
+   "category": "住まい",
+   "name_ja": "玄関",
+   "setting": "indoor",
+   "mood_tags": [
+    "transition"
+   ],
+   "key_elements": [
+    "ドア",
+    "靴"
+   ],
+   "typical_use": "出発・帰宅・来客",
+   "id": "BG019"
+  },
+  {
+   "category": "住まい",
+   "name_ja": "風呂場",
+   "setting": "indoor",
+   "mood_tags": [
+    "relax"
+   ],
+   "key_elements": [
+    "湯気",
+    "タイル"
+   ],
+   "typical_use": "考え事・ギャグ",
+   "id": "BG020"
+  },
+  {
+   "category": "住まい",
+   "name_ja": "ベランダ",
+   "setting": "outdoor",
+   "mood_tags": [
+    "calm",
+    "night"
+   ],
+   "key_elements": [
+    "手すり",
+    "洗濯物",
+    "夜景"
+   ],
+   "typical_use": "夜の独白・電話",
+   "id": "BG021"
+  },
+  {
+   "category": "住まい",
+   "name_ja": "縁側",
+   "setting": "outdoor",
+   "mood_tags": [
+    "nostalgic",
+    "wa"
+   ],
+   "key_elements": [
+    "庭",
+    "風鈴",
+    "茶"
+   ],
+   "typical_use": "和風日常・老人との会話",
+   "id": "BG022"
+  },
+  {
+   "category": "住まい",
+   "name_ja": "和室",
+   "setting": "indoor",
+   "mood_tags": [
+    "wa",
+    "formal"
+   ],
+   "key_elements": [
+    "畳",
+    "障子",
+    "床の間"
+   ],
+   "typical_use": "正座の対話・法事",
+   "id": "BG023"
+  },
+  {
+   "category": "住まい",
+   "name_ja": "アパートの外観",
+   "setting": "outdoor",
+   "mood_tags": [
+    "daily"
+   ],
+   "key_elements": [
+    "階段",
+    "集合ポスト"
+   ],
+   "typical_use": "生活感の提示",
+   "id": "BG024"
+  },
+  {
+   "category": "住まい",
+   "name_ja": "豪邸・洋館",
+   "setting": "indoor",
+   "mood_tags": [
+    "rich",
+    "mystery"
+   ],
+   "key_elements": [
+    "シャンデリア",
+    "大階段"
+   ],
+   "typical_use": "お嬢様・当主対面",
+   "id": "BG025"
+  },
+  {
+   "category": "住まい",
+   "name_ja": "廃屋・空き家",
+   "setting": "indoor",
+   "mood_tags": [
+    "horror",
+    "abandoned"
+   ],
+   "key_elements": [
+    "破れ障子",
+    "埃",
+    "蜘蛛の巣"
+   ],
+   "typical_use": "肝試し・隠れ家",
+   "id": "BG026"
+  },
+  {
+   "category": "住まい",
+   "name_ja": "屋根の上",
+   "setting": "outdoor",
+   "mood_tags": [
+    "free",
+    "night"
+   ],
+   "key_elements": [
+    "瓦",
+    "月",
+    "星空"
+   ],
+   "typical_use": "忍者の移動・夜語り",
+   "id": "BG027"
+  },
+  {
+   "category": "街",
+   "name_ja": "商店街",
+   "setting": "outdoor",
+   "mood_tags": [
+    "lively",
+    "nostalgic"
+   ],
+   "key_elements": [
+    "アーケード",
+    "のぼり",
+    "買い物客"
+   ],
+   "typical_use": "買い食い・日常",
+   "id": "BG028"
+  },
+  {
+   "category": "街",
+   "name_ja": "駅のホーム",
+   "setting": "outdoor",
+   "mood_tags": [
+    "transition"
+   ],
+   "key_elements": [
+    "線路",
+    "発車標",
+    "風"
+   ],
+   "typical_use": "別れ・再会",
+   "id": "BG029"
+  },
+  {
+   "category": "街",
+   "name_ja": "電車内",
+   "setting": "indoor",
+   "mood_tags": [
+    "daily"
+   ],
+   "key_elements": [
+    "吊革",
+    "窓の流景"
+   ],
+   "typical_use": "通学・偶然の同席",
+   "id": "BG030"
+  },
+  {
+   "category": "街",
+   "name_ja": "バス停",
+   "setting": "outdoor",
+   "mood_tags": [
+    "waiting"
+   ],
+   "key_elements": [
+    "標識",
+    "ベンチ",
+    "雨"
+   ],
+   "typical_use": "待ち合わせ・相合傘",
+   "id": "BG031"
+  },
+  {
+   "category": "街",
+   "name_ja": "交差点・スクランブル",
+   "setting": "outdoor",
+   "mood_tags": [
+    "urban",
+    "busy"
+   ],
+   "key_elements": [
+    "横断歩道",
+    "信号",
+    "群衆"
+   ],
+   "typical_use": "都会の喧騒・すれ違い",
+   "id": "BG032"
+  },
+  {
+   "category": "街",
+   "name_ja": "路地裏",
+   "setting": "outdoor",
+   "mood_tags": [
+    "dark",
+    "danger"
+   ],
+   "key_elements": [
+    "室外機",
+    "配管",
+    "薄暗さ"
+   ],
+   "typical_use": "不良との遭遇・追跡",
+   "id": "BG033"
+  },
+  {
+   "category": "街",
+   "name_ja": "コンビニ",
+   "setting": "indoor",
+   "mood_tags": [
+    "daily",
+    "night"
+   ],
+   "key_elements": [
+    "棚",
+    "白い照明"
+   ],
+   "typical_use": "夜の買い出し・バイト",
+   "id": "BG034"
+  },
+  {
+   "category": "街",
+   "name_ja": "ファミレス",
+   "setting": "indoor",
+   "mood_tags": [
+    "daily"
+   ],
+   "key_elements": [
+    "ボックス席",
+    "ドリンクバー"
+   ],
+   "typical_use": "作戦会議・だべり",
+   "id": "BG035"
+  },
+  {
+   "category": "街",
+   "name_ja": "喫茶店・カフェ",
+   "setting": "indoor",
+   "mood_tags": [
+    "calm"
+   ],
+   "key_elements": [
+    "カウンター",
+    "コーヒー"
+   ],
+   "typical_use": "落ち着いた対話",
+   "id": "BG036"
+  },
+  {
+   "category": "街",
+   "name_ja": "ラーメン屋・屋台",
+   "setting": "indoor",
+   "mood_tags": [
+    "warm",
+    "night"
+   ],
+   "key_elements": [
+    "暖簾",
+    "湯気",
+    "カウンター"
+   ],
+   "typical_use": "腹ごしらえ・人情",
+   "id": "BG037"
+  },
+  {
+   "category": "街",
+   "name_ja": "ゲームセンター",
+   "setting": "indoor",
+   "mood_tags": [
+    "lively"
+   ],
+   "key_elements": [
+    "筐体",
+    "クレーンゲーム"
+   ],
+   "typical_use": "デート・遊び",
+   "id": "BG038"
+  },
+  {
+   "category": "街",
+   "name_ja": "公園",
+   "setting": "outdoor",
+   "mood_tags": [
+    "calm"
+   ],
+   "key_elements": [
+    "ベンチ",
+    "滑り台",
+    "噴水"
+   ],
+   "typical_use": "休憩・子供時代の回想",
+   "id": "BG039"
+  },
+  {
+   "category": "街",
+   "name_ja": "河川敷",
+   "setting": "outdoor",
+   "mood_tags": [
+    "youth",
+    "sunset"
+   ],
+   "key_elements": [
+    "土手",
+    "橋",
+    "夕焼け"
+   ],
+   "typical_use": "殴り合い後の和解・叫び",
+   "id": "BG040"
+  },
+  {
+   "category": "街",
+   "name_ja": "歩道橋",
+   "setting": "outdoor",
+   "mood_tags": [
+    "transition",
+    "sunset"
+   ],
+   "key_elements": [
+    "階段",
+    "車の流れ"
+   ],
+   "typical_use": "見送り・独白",
+   "id": "BG041"
+  },
+  {
+   "category": "街",
+   "name_ja": "病院の病室",
+   "setting": "indoor",
+   "mood_tags": [
+    "quiet",
+    "heavy"
+   ],
+   "key_elements": [
+    "白いベッド",
+    "点滴",
+    "窓"
+   ],
+   "typical_use": "見舞い・重い告知",
+   "id": "BG042"
+  },
+  {
+   "category": "街",
+   "name_ja": "神社の境内",
+   "setting": "outdoor",
+   "mood_tags": [
+    "wa",
+    "sacred"
+   ],
+   "key_elements": [
+    "鳥居",
+    "石段",
+    "賽銭箱"
+   ],
+   "typical_use": "初詣・祭り・誓い",
+   "id": "BG043"
+  },
+  {
+   "category": "街",
+   "name_ja": "夏祭り・縁日",
+   "setting": "outdoor",
+   "mood_tags": [
+    "festive",
+    "night"
+   ],
+   "key_elements": [
+    "提灯",
+    "屋台",
+    "浴衣"
+   ],
+   "typical_use": "花火デート",
+   "id": "BG044"
+  },
+  {
+   "category": "街",
+   "name_ja": "ビル屋上(都会)",
+   "setting": "outdoor",
+   "mood_tags": [
+    "urban",
+    "night"
+   ],
+   "key_elements": [
+    "ネオン夜景",
+    "貯水タンク"
+   ],
+   "typical_use": "対決・見下ろす構図",
+   "id": "BG045"
+  },
+  {
+   "category": "自然",
+   "name_ja": "桜並木",
+   "setting": "outdoor",
+   "mood_tags": [
+    "spring",
+    "emotional"
+   ],
+   "key_elements": [
+    "花吹雪",
+    "並木道"
+   ],
+   "typical_use": "出会い・卒業",
+   "id": "BG046"
+  },
+  {
+   "category": "自然",
+   "name_ja": "海岸・砂浜",
+   "setting": "outdoor",
+   "mood_tags": [
+    "summer",
+    "open"
+   ],
+   "key_elements": [
+    "波",
+    "水平線",
+    "入道雲"
+   ],
+   "typical_use": "海回・叫び",
+   "id": "BG047"
+  },
+  {
+   "category": "自然",
+   "name_ja": "夏の入道雲と田舎道",
+   "setting": "outdoor",
+   "mood_tags": [
+    "summer",
+    "nostalgic"
+   ],
+   "key_elements": [
+    "田んぼ",
+    "電柱",
+    "蝉"
+   ],
+   "typical_use": "帰省・少年時代",
+   "id": "BG048"
+  },
+  {
+   "category": "自然",
+   "name_ja": "森の中",
+   "setting": "outdoor",
+   "mood_tags": [
+    "quiet",
+    "mystery"
+   ],
+   "key_elements": [
+    "木漏れ日",
+    "下草"
+   ],
+   "typical_use": "修行・迷い込み",
+   "id": "BG049"
+  },
+  {
+   "category": "自然",
+   "name_ja": "深い霧の森",
+   "setting": "outdoor",
+   "mood_tags": [
+    "horror",
+    "lost"
+   ],
+   "key_elements": [
+    "霧",
+    "黒い木々"
+   ],
+   "typical_use": "遭難・怪異",
+   "id": "BG050"
+  },
+  {
+   "category": "自然",
+   "name_ja": "山頂・崖",
+   "setting": "outdoor",
+   "mood_tags": [
+    "grand"
+   ],
+   "key_elements": [
+    "雲海",
+    "岩場"
+   ],
+   "typical_use": "修行の成果・眺望",
+   "id": "BG051"
+  },
+  {
+   "category": "自然",
+   "name_ja": "滝",
+   "setting": "outdoor",
+   "mood_tags": [
+    "wa",
+    "training"
+   ],
+   "key_elements": [
+    "落水",
+    "飛沫",
+    "岩"
+   ],
+   "typical_use": "滝行・修行",
+   "id": "BG052"
+  },
+  {
+   "category": "自然",
+   "name_ja": "川・渓流",
+   "setting": "outdoor",
+   "mood_tags": [
+    "calm"
+   ],
+   "key_elements": [
+    "清流",
+    "石"
+   ],
+   "typical_use": "水汲み・休息",
+   "id": "BG053"
+  },
+  {
+   "category": "自然",
+   "name_ja": "湖畔",
+   "setting": "outdoor",
+   "mood_tags": [
+    "still",
+    "mystery"
+   ],
+   "key_elements": [
+    "鏡面の水面",
+    "霧"
+   ],
+   "typical_use": "静かな対話",
+   "id": "BG054"
+  },
+  {
+   "category": "自然",
+   "name_ja": "雪原",
+   "setting": "outdoor",
+   "mood_tags": [
+    "winter",
+    "silent"
+   ],
+   "key_elements": [
+    "一面の雪",
+    "足跡"
+   ],
+   "typical_use": "別離・死闘",
+   "id": "BG055"
+  },
+  {
+   "category": "自然",
+   "name_ja": "紅葉の山道",
+   "setting": "outdoor",
+   "mood_tags": [
+    "autumn"
+   ],
+   "key_elements": [
+    "紅葉",
+    "落ち葉"
+   ],
+   "typical_use": "季節の移ろい",
+   "id": "BG056"
+  },
+  {
+   "category": "自然",
+   "name_ja": "星空・天の川",
+   "setting": "outdoor",
+   "mood_tags": [
+    "night",
+    "romantic"
+   ],
+   "key_elements": [
+    "満天の星",
+    "流れ星"
+   ],
+   "typical_use": "願い・二人の夜",
+   "id": "BG057"
+  },
+  {
+   "category": "自然",
+   "name_ja": "満月の夜",
+   "setting": "outdoor",
+   "mood_tags": [
+    "night",
+    "wa"
+   ],
+   "key_elements": [
+    "大きな月",
+    "雲",
+    "シルエット"
+   ],
+   "typical_use": "忍者の見せ場・変化",
+   "id": "BG058"
+  },
+  {
+   "category": "自然",
+   "name_ja": "雨の街路",
+   "setting": "outdoor",
+   "mood_tags": [
+    "rain",
+    "sad"
+   ],
+   "key_elements": [
+    "雨脚",
+    "傘",
+    "水たまり"
+   ],
+   "typical_use": "失恋・別れ",
+   "id": "BG059"
+  },
+  {
+   "category": "自然",
+   "name_ja": "夕焼けの空(空のみ)",
+   "setting": "outdoor",
+   "mood_tags": [
+    "emotional"
+   ],
+   "key_elements": [
+    "茜空",
+    "雲",
+    "鳥"
+   ],
+   "typical_use": "感情の抽象コマ",
+   "id": "BG060"
+  },
+  {
+   "category": "和風",
+   "name_ja": "忍びの里(全景)",
+   "setting": "outdoor",
+   "mood_tags": [
+    "wa",
+    "home"
+   ],
+   "key_elements": [
+    "茅葺屋根",
+    "山あい",
+    "段々畑"
+   ],
+   "typical_use": "里の説明・帰還",
+   "id": "BG061"
+  },
+  {
+   "category": "和風",
+   "name_ja": "城下町",
+   "setting": "outdoor",
+   "mood_tags": [
+    "wa",
+    "lively"
+   ],
+   "key_elements": [
+    "瓦屋根の連なり",
+    "橋",
+    "行商"
+   ],
+   "typical_use": "時代物の街歩き",
+   "id": "BG062"
+  },
+  {
+   "category": "和風",
+   "name_ja": "天守閣・城内",
+   "setting": "indoor",
+   "mood_tags": [
+    "wa",
+    "formal"
+   ],
+   "key_elements": [
+    "大広間",
+    "襖絵",
+    "上座"
+   ],
+   "typical_use": "謁見・密議",
+   "id": "BG063"
+  },
+  {
+   "category": "和風",
+   "name_ja": "道場",
+   "setting": "indoor",
+   "mood_tags": [
+    "wa",
+    "training"
+   ],
+   "key_elements": [
+    "板張り",
+    "木刀掛け",
+    "神棚"
+   ],
+   "typical_use": "稽古・試合",
+   "id": "BG064"
+  },
+  {
+   "category": "和風",
+   "name_ja": "竹林",
+   "setting": "outdoor",
+   "mood_tags": [
+    "wa",
+    "tense"
+   ],
+   "key_elements": [
+    "竹の縦線",
+    "木漏れ日"
+   ],
+   "typical_use": "忍者戦闘の定番",
+   "id": "BG065"
+  },
+  {
+   "category": "和風",
+   "name_ja": "鳥居の連なる参道",
+   "setting": "outdoor",
+   "mood_tags": [
+    "wa",
+    "sacred"
+   ],
+   "key_elements": [
+    "朱の鳥居",
+    "石畳"
+   ],
+   "typical_use": "異界への入口",
+   "id": "BG066"
+  },
+  {
+   "category": "和風",
+   "name_ja": "温泉・湯けむり",
+   "setting": "outdoor",
+   "mood_tags": [
+    "wa",
+    "relax"
+   ],
+   "key_elements": [
+    "岩風呂",
+    "湯気",
+    "提灯"
+   ],
+   "typical_use": "湯けむり回",
+   "id": "BG067"
+  },
+  {
+   "category": "和風",
+   "name_ja": "茶屋(街道沿い)",
+   "setting": "outdoor",
+   "mood_tags": [
+    "wa",
+    "rest"
+   ],
+   "key_elements": [
+    "床几",
+    "団子",
+    "のぼり"
+   ],
+   "typical_use": "旅の休憩",
+   "id": "BG068"
+  },
+  {
+   "category": "和風",
+   "name_ja": "蔵の中",
+   "setting": "indoor",
+   "mood_tags": [
+    "wa",
+    "secret"
+   ],
+   "key_elements": [
+    "米俵",
+    "長持",
+    "暗がり"
+   ],
+   "typical_use": "隠し物・潜入",
+   "id": "BG069"
+  },
+  {
+   "category": "和風",
+   "name_ja": "祭りの神楽舞台",
+   "setting": "outdoor",
+   "mood_tags": [
+    "wa",
+    "festive"
+   ],
+   "key_elements": [
+    "篝火",
+    "舞台",
+    "面"
+   ],
+   "typical_use": "儀式・祭事",
+   "id": "BG070"
+  },
+  {
+   "category": "和風",
+   "name_ja": "古寺・本堂",
+   "setting": "indoor",
+   "mood_tags": [
+    "wa",
+    "solemn"
+   ],
+   "key_elements": [
+    "仏像",
+    "蝋燭",
+    "線香"
+   ],
+   "typical_use": "弔い・修行",
+   "id": "BG071"
+  },
+  {
+   "category": "和風",
+   "name_ja": "洞窟・隠し通路",
+   "setting": "indoor",
+   "mood_tags": [
+    "dark",
+    "secret"
+   ],
+   "key_elements": [
+    "松明",
+    "岩壁"
+   ],
+   "typical_use": "潜入・秘密基地",
+   "id": "BG072"
+  },
+  {
+   "category": "バトル",
+   "name_ja": "荒野・決闘の地",
+   "setting": "outdoor",
+   "mood_tags": [
+    "showdown"
+   ],
+   "key_elements": [
+    "荒れ地",
+    "風",
+    "転がる岩"
+   ],
+   "typical_use": "一騎打ち",
+   "id": "BG073"
+  },
+  {
+   "category": "バトル",
+   "name_ja": "崩壊した市街地",
+   "setting": "outdoor",
+   "mood_tags": [
+    "war",
+    "despair"
+   ],
+   "key_elements": [
+    "瓦礫",
+    "煙",
+    "傾いたビル"
+   ],
+   "typical_use": "戦闘の爪痕",
+   "id": "BG074"
+  },
+  {
+   "category": "バトル",
+   "name_ja": "炎上する建物",
+   "setting": "outdoor",
+   "mood_tags": [
+    "crisis"
+   ],
+   "key_elements": [
+    "火柱",
+    "黒煙"
+   ],
+   "typical_use": "救出・喪失",
+   "id": "BG075"
+  },
+  {
+   "category": "バトル",
+   "name_ja": "闘技場・コロシアム",
+   "setting": "outdoor",
+   "mood_tags": [
+    "arena"
+   ],
+   "key_elements": [
+    "観客席",
+    "石壁"
+   ],
+   "typical_use": "大会編",
+   "id": "BG076"
+  },
+  {
+   "category": "ファンタジー",
+   "name_ja": "王城の玉座の間",
+   "setting": "indoor",
+   "mood_tags": [
+    "grand"
+   ],
+   "key_elements": [
+    "玉座",
+    "赤絨毯",
+    "柱列"
+   ],
+   "typical_use": "謁見・簒奪",
+   "id": "BG077"
+  },
+  {
+   "category": "ファンタジー",
+   "name_ja": "魔法陣の間",
+   "setting": "indoor",
+   "mood_tags": [
+    "magic"
+   ],
+   "key_elements": [
+    "光る紋様",
+    "浮遊物"
+   ],
+   "typical_use": "召喚・儀式",
+   "id": "BG078"
+  },
+  {
+   "category": "ファンタジー",
+   "name_ja": "ダンジョン",
+   "setting": "indoor",
+   "mood_tags": [
+    "adventure",
+    "dark"
+   ],
+   "key_elements": [
+    "石壁",
+    "松明",
+    "宝箱"
+   ],
+   "typical_use": "探索",
+   "id": "BG079"
+  },
+  {
+   "category": "ファンタジー",
+   "name_ja": "異世界の草原",
+   "setting": "outdoor",
+   "mood_tags": [
+    "open",
+    "adventure"
+   ],
+   "key_elements": [
+    "大平原",
+    "二つの月"
+   ],
+   "typical_use": "転移直後・旅立ち",
+   "id": "BG080"
+  },
+  {
+   "category": "SF",
+   "name_ja": "研究所・ラボ",
+   "setting": "indoor",
+   "mood_tags": [
+    "sf",
+    "cold"
+   ],
+   "key_elements": [
+    "モニター群",
+    "培養槽",
+    "配線"
+   ],
+   "typical_use": "実験・真相",
+   "id": "BG081"
+  },
+  {
+   "category": "SF",
+   "name_ja": "コックピット",
+   "setting": "indoor",
+   "mood_tags": [
+    "sf"
+   ],
+   "key_elements": [
+    "計器",
+    "キャノピー越しの空"
+   ],
+   "typical_use": "操縦・出撃",
+   "id": "BG082"
+  },
+  {
+   "category": "SF",
+   "name_ja": "宇宙(船外)",
+   "setting": "outdoor",
+   "mood_tags": [
+    "sf",
+    "vast"
+   ],
+   "key_elements": [
+    "地球",
+    "星々",
+    "漆黒"
+   ],
+   "typical_use": "スケール提示",
+   "id": "BG083"
+  },
+  {
+   "category": "SF",
+   "name_ja": "電脳空間",
+   "setting": "indoor",
+   "mood_tags": [
+    "sf",
+    "abstract"
+   ],
+   "key_elements": [
+    "グリッド",
+    "流れるコード"
+   ],
+   "typical_use": "ハッキング・精神世界",
+   "id": "BG084"
+  },
+  {
+   "category": "抽象",
+   "name_ja": "真っ白/真っ黒の心象空間",
+   "setting": "indoor",
+   "mood_tags": [
+    "abstract",
+    "inner"
+   ],
+   "key_elements": [
+    "無背景",
+    "浮かぶ光"
+   ],
+   "typical_use": "内面対話・回想の入口",
+   "id": "BG085"
+  },
+  {
+   "category": "演出",
+   "name_ja": "集中線のみ",
+   "setting": "abstract",
+   "mood_tags": [
+    "impact"
+   ],
+   "key_elements": [
+    "放射線"
+   ],
+   "typical_use": "驚き・決めの背景省略",
+   "id": "BG086"
+  },
+  {
+   "category": "演出",
+   "name_ja": "スピード線(流線)",
+   "setting": "abstract",
+   "mood_tags": [
+    "speed"
+   ],
+   "key_elements": [
+    "平行流線"
+   ],
+   "typical_use": "高速移動",
+   "id": "BG087"
+  },
+  {
+   "category": "演出",
+   "name_ja": "ベタフラッシュ",
+   "setting": "abstract",
+   "mood_tags": [
+    "shock"
+   ],
+   "key_elements": [
+    "黒フラッシュ"
+   ],
+   "typical_use": "衝撃の瞬間",
+   "id": "BG088"
+  },
+  {
+   "category": "演出",
+   "name_ja": "花背景(トーン)",
+   "setting": "abstract",
+   "mood_tags": [
+    "romantic"
+   ],
+   "key_elements": [
+    "薔薇/小花"
+   ],
+   "typical_use": "少女漫画的ときめき",
+   "id": "BG089"
+  },
+  {
+   "category": "演出",
+   "name_ja": "キラキラ背景",
+   "setting": "abstract",
+   "mood_tags": [
+    "sparkle"
+   ],
+   "key_elements": [
+    "星・光粒"
+   ],
+   "typical_use": "美形登場・憧れ",
+   "id": "BG090"
+  },
+  {
+   "category": "演出",
+   "name_ja": "縦線(絶望)",
+   "setting": "abstract",
+   "mood_tags": [
+    "despair"
+   ],
+   "key_elements": [
+    "顔にかかる縦線"
+   ],
+   "typical_use": "ショック・青ざめ",
+   "id": "BG091"
+  },
+  {
+   "category": "演出",
+   "name_ja": "ぐるぐる渦",
+   "setting": "abstract",
+   "mood_tags": [
+    "confusion"
+   ],
+   "key_elements": [
+    "渦巻"
+   ],
+   "typical_use": "混乱・目眩",
+   "id": "BG092"
+  },
+  {
+   "category": "演出",
+   "name_ja": "黒ベタ+目だけ",
+   "setting": "abstract",
+   "mood_tags": [
+    "menace"
+   ],
+   "key_elements": [
+    "闇に光る目"
+   ],
+   "typical_use": "脅し・怪しさ",
+   "id": "BG093"
+  },
+  {
+   "category": "演出",
+   "name_ja": "回想のぼかし枠",
+   "setting": "abstract",
+   "mood_tags": [
+    "flashback"
+   ],
+   "key_elements": [
+    "白ぼかし縁"
+   ],
+   "typical_use": "過去シーン",
+   "id": "BG094"
+  },
+  {
+   "category": "演出",
+   "name_ja": "モノローグの空白",
+   "setting": "abstract",
+   "mood_tags": [
+    "inner"
+   ],
+   "key_elements": [
+    "余白",
+    "小さな人物"
+   ],
+   "typical_use": "孤独感",
+   "id": "BG095"
+  },
+  {
+   "category": "演出",
+   "name_ja": "雨のトーン重ね",
+   "setting": "abstract",
+   "mood_tags": [
+    "sad"
+   ],
+   "key_elements": [
+    "斜線の雨"
+   ],
+   "typical_use": "悲しみの強調",
+   "id": "BG096"
+  },
+  {
+   "category": "演出",
+   "name_ja": "炎の背景",
+   "setting": "abstract",
+   "mood_tags": [
+    "passion",
+    "anger"
+   ],
+   "key_elements": [
+    "燃える炎"
+   ],
+   "typical_use": "闘志・激怒",
+   "id": "BG097"
+  },
+  {
+   "category": "演出",
+   "name_ja": "雷背景",
+   "setting": "abstract",
+   "mood_tags": [
+    "shock"
+   ],
+   "key_elements": [
+    "稲妻"
+   ],
+   "typical_use": "衝撃の事実",
+   "id": "BG098"
+  },
+  {
+   "category": "演出",
+   "name_ja": "桜吹雪オーバーレイ",
+   "setting": "abstract",
+   "mood_tags": [
+    "emotional",
+    "wa"
+   ],
+   "key_elements": [
+    "花びら"
+   ],
+   "typical_use": "出会い・別れの装飾",
+   "id": "BG099"
+  },
+  {
+   "category": "演出",
+   "name_ja": "市松/和柄背景",
+   "setting": "abstract",
+   "mood_tags": [
+    "wa",
+    "stylish"
+   ],
+   "key_elements": [
+    "和文様"
+   ],
+   "typical_use": "和風演出・扉絵",
+   "id": "BG100"
+  }
+ ]
+}

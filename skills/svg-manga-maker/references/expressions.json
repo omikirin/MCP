@@ -1,0 +1,642 @@
+{
+ "meta": {
+  "style": "よしながふみ式・同ポジ3連ビート",
+  "rules": [
+   "カメラ固定(同構図バストアップ)",
+   "背景は白or薄トーンのみ",
+   "セリフは0〜1個・短く",
+   "3コマ目だけSFX可"
+  ],
+  "cell_count": 45,
+  "shot_types": {
+   "eyes": "目もとのみ(横長)",
+   "mouth": "口もとのみ",
+   "bust": "バストアップ"
+  },
+  "note": "ステップのshotは混在可。目→目→口 のようにパーツを切り替えると視線誘導が生まれる"
+ },
+ "sequences": [
+  {
+   "id": "BEAT01",
+   "name_ja": "泣きの3連",
+   "emotion": "sad",
+   "steps": [
+    "EXP001",
+    "EXP002",
+    "EXP003"
+   ],
+   "step_desc": [
+    "こらえる(唇を結ぶ)",
+    "目に涙が盛り上がる",
+    "決壊して泣く"
+   ],
+   "shots": [
+    "eyes",
+    "eyes",
+    "bust"
+   ]
+  },
+  {
+   "id": "BEAT02",
+   "name_ja": "驚きの3連",
+   "emotion": "surprise",
+   "steps": [
+    "EXP004",
+    "EXP005",
+    "EXP006"
+   ],
+   "step_desc": [
+    "きょとん(理解前)",
+    "目を見開く",
+    "のけぞり絶句"
+   ],
+   "shots": [
+    "eyes",
+    "eyes",
+    "bust"
+   ]
+  },
+  {
+   "id": "BEAT03",
+   "name_ja": "照れの3連",
+   "emotion": "shy",
+   "steps": [
+    "EXP007",
+    "EXP008",
+    "EXP009"
+   ],
+   "step_desc": [
+    "目が合う",
+    "目を逸らす",
+    "頬を染めてうつむく"
+   ],
+   "shots": [
+    "eyes",
+    "eyes",
+    "mouth"
+   ]
+  },
+  {
+   "id": "BEAT04",
+   "name_ja": "怒りの3連",
+   "emotion": "anger",
+   "steps": [
+    "EXP010",
+    "EXP011",
+    "EXP012"
+   ],
+   "step_desc": [
+    "真顔になる",
+    "こめかみが引きつる",
+    "青筋で怒鳴る寸前"
+   ],
+   "shots": [
+    "bust",
+    "bust",
+    "bust"
+   ]
+  },
+  {
+   "id": "BEAT05",
+   "name_ja": "じわ笑いの3連",
+   "emotion": "joy",
+   "steps": [
+    "EXP013",
+    "EXP014",
+    "EXP015"
+   ],
+   "step_desc": [
+    "真顔",
+    "口元がゆるむ",
+    "こらえきれず吹き出す"
+   ],
+   "shots": [
+    "mouth",
+    "mouth",
+    "bust"
+   ]
+  },
+  {
+   "id": "BEAT06",
+   "name_ja": "安堵の3連",
+   "emotion": "relief",
+   "steps": [
+    "EXP016",
+    "EXP017",
+    "EXP018"
+   ],
+   "step_desc": [
+    "緊張の面持ち",
+    "ほっと息を吐く",
+    "柔らかく微笑む"
+   ],
+   "shots": [
+    "bust",
+    "bust",
+    "bust"
+   ]
+  },
+  {
+   "id": "BEAT07",
+   "name_ja": "気まずさの3連",
+   "emotion": "awkward",
+   "steps": [
+    "EXP019",
+    "EXP020",
+    "EXP021"
+   ],
+   "step_desc": [
+    "視線が泳ぐ",
+    "口をへの字",
+    "あさっての方を見る"
+   ],
+   "shots": [
+    "bust",
+    "bust",
+    "bust"
+   ]
+  },
+  {
+   "id": "BEAT08",
+   "name_ja": "決意の3連",
+   "emotion": "resolve",
+   "steps": [
+    "EXP022",
+    "EXP023",
+    "EXP024"
+   ],
+   "step_desc": [
+    "伏し目で迷う",
+    "目を閉じる",
+    "顔を上げ目に光"
+   ],
+   "shots": [
+    "bust",
+    "bust",
+    "bust"
+   ]
+  },
+  {
+   "id": "BEAT09",
+   "name_ja": "落胆の3連",
+   "emotion": "despair",
+   "steps": [
+    "EXP025",
+    "EXP026",
+    "EXP027"
+   ],
+   "step_desc": [
+    "期待の笑顔",
+    "表情が固まる",
+    "目が死んでうなだれる"
+   ],
+   "shots": [
+    "bust",
+    "bust",
+    "bust"
+   ]
+  },
+  {
+   "id": "BEAT10",
+   "name_ja": "ときめきの3連",
+   "emotion": "love",
+   "steps": [
+    "EXP028",
+    "EXP029",
+    "EXP030"
+   ],
+   "step_desc": [
+    "ふと見る",
+    "目が大きくなる",
+    "頬染め+目がきらきら"
+   ],
+   "shots": [
+    "bust",
+    "bust",
+    "bust"
+   ]
+  },
+  {
+   "id": "BEAT11",
+   "name_ja": "嘘がバレる3連",
+   "emotion": "panic",
+   "steps": [
+    "EXP031",
+    "EXP032",
+    "EXP033"
+   ],
+   "step_desc": [
+    "余裕の笑み",
+    "笑顔のまま汗",
+    "目が泳いで硬直"
+   ],
+   "shots": [
+    "bust",
+    "bust",
+    "bust"
+   ]
+  },
+  {
+   "id": "BEAT12",
+   "name_ja": "眠気の3連",
+   "emotion": "sleepy",
+   "steps": [
+    "EXP034",
+    "EXP035",
+    "EXP036"
+   ],
+   "step_desc": [
+    "目がとろん",
+    "こくり…と船をこぐ",
+    "はっと目を覚ます"
+   ],
+   "shots": [
+    "bust",
+    "bust",
+    "bust"
+   ]
+  },
+  {
+   "id": "BEAT13",
+   "name_ja": "悪だくみの3連",
+   "emotion": "mischief",
+   "steps": [
+    "EXP037",
+    "EXP038",
+    "EXP039"
+   ],
+   "step_desc": [
+    "ふつうの顔",
+    "口角がにやり",
+    "目が三日月の悪い笑み"
+   ],
+   "shots": [
+    "eyes",
+    "mouth",
+    "bust"
+   ]
+  },
+  {
+   "id": "BEAT14",
+   "name_ja": "感動の3連",
+   "emotion": "moved",
+   "steps": [
+    "EXP040",
+    "EXP041",
+    "EXP042"
+   ],
+   "step_desc": [
+    "ぽかんと見上げる",
+    "目が潤む",
+    "涙をこぼして微笑む"
+   ],
+   "shots": [
+    "bust",
+    "bust",
+    "bust"
+   ]
+  },
+  {
+   "id": "BEAT15",
+   "name_ja": "すねの3連",
+   "emotion": "pout",
+   "steps": [
+    "EXP043",
+    "EXP044",
+    "EXP045"
+   ],
+   "step_desc": [
+    "ぷいと横を向く",
+    "ちらっと見る",
+    "目が合ってまたぷい"
+   ],
+   "shots": [
+    "bust",
+    "bust",
+    "bust"
+   ]
+  }
+ ],
+ "cells": [
+  {
+   "id": "EXP001",
+   "beat": "BEAT01",
+   "step": 1,
+   "desc": "こらえる(唇を結ぶ)",
+   "emotion": "sad"
+  },
+  {
+   "id": "EXP002",
+   "beat": "BEAT01",
+   "step": 2,
+   "desc": "目に涙が盛り上がる",
+   "emotion": "sad"
+  },
+  {
+   "id": "EXP003",
+   "beat": "BEAT01",
+   "step": 3,
+   "desc": "決壊して泣く",
+   "emotion": "sad"
+  },
+  {
+   "id": "EXP004",
+   "beat": "BEAT02",
+   "step": 1,
+   "desc": "きょとん(理解前)",
+   "emotion": "surprise"
+  },
+  {
+   "id": "EXP005",
+   "beat": "BEAT02",
+   "step": 2,
+   "desc": "目を見開く",
+   "emotion": "surprise"
+  },
+  {
+   "id": "EXP006",
+   "beat": "BEAT02",
+   "step": 3,
+   "desc": "のけぞり絶句",
+   "emotion": "surprise"
+  },
+  {
+   "id": "EXP007",
+   "beat": "BEAT03",
+   "step": 1,
+   "desc": "目が合う",
+   "emotion": "shy"
+  },
+  {
+   "id": "EXP008",
+   "beat": "BEAT03",
+   "step": 2,
+   "desc": "目を逸らす",
+   "emotion": "shy"
+  },
+  {
+   "id": "EXP009",
+   "beat": "BEAT03",
+   "step": 3,
+   "desc": "頬を染めてうつむく",
+   "emotion": "shy"
+  },
+  {
+   "id": "EXP010",
+   "beat": "BEAT04",
+   "step": 1,
+   "desc": "真顔になる",
+   "emotion": "anger"
+  },
+  {
+   "id": "EXP011",
+   "beat": "BEAT04",
+   "step": 2,
+   "desc": "こめかみが引きつる",
+   "emotion": "anger"
+  },
+  {
+   "id": "EXP012",
+   "beat": "BEAT04",
+   "step": 3,
+   "desc": "青筋で怒鳴る寸前",
+   "emotion": "anger"
+  },
+  {
+   "id": "EXP013",
+   "beat": "BEAT05",
+   "step": 1,
+   "desc": "真顔",
+   "emotion": "joy"
+  },
+  {
+   "id": "EXP014",
+   "beat": "BEAT05",
+   "step": 2,
+   "desc": "口元がゆるむ",
+   "emotion": "joy"
+  },
+  {
+   "id": "EXP015",
+   "beat": "BEAT05",
+   "step": 3,
+   "desc": "こらえきれず吹き出す",
+   "emotion": "joy"
+  },
+  {
+   "id": "EXP016",
+   "beat": "BEAT06",
+   "step": 1,
+   "desc": "緊張の面持ち",
+   "emotion": "relief"
+  },
+  {
+   "id": "EXP017",
+   "beat": "BEAT06",
+   "step": 2,
+   "desc": "ほっと息を吐く",
+   "emotion": "relief"
+  },
+  {
+   "id": "EXP018",
+   "beat": "BEAT06",
+   "step": 3,
+   "desc": "柔らかく微笑む",
+   "emotion": "relief"
+  },
+  {
+   "id": "EXP019",
+   "beat": "BEAT07",
+   "step": 1,
+   "desc": "視線が泳ぐ",
+   "emotion": "awkward"
+  },
+  {
+   "id": "EXP020",
+   "beat": "BEAT07",
+   "step": 2,
+   "desc": "口をへの字",
+   "emotion": "awkward"
+  },
+  {
+   "id": "EXP021",
+   "beat": "BEAT07",
+   "step": 3,
+   "desc": "あさっての方を見る",
+   "emotion": "awkward"
+  },
+  {
+   "id": "EXP022",
+   "beat": "BEAT08",
+   "step": 1,
+   "desc": "伏し目で迷う",
+   "emotion": "resolve"
+  },
+  {
+   "id": "EXP023",
+   "beat": "BEAT08",
+   "step": 2,
+   "desc": "目を閉じる",
+   "emotion": "resolve"
+  },
+  {
+   "id": "EXP024",
+   "beat": "BEAT08",
+   "step": 3,
+   "desc": "顔を上げ目に光",
+   "emotion": "resolve"
+  },
+  {
+   "id": "EXP025",
+   "beat": "BEAT09",
+   "step": 1,
+   "desc": "期待の笑顔",
+   "emotion": "despair"
+  },
+  {
+   "id": "EXP026",
+   "beat": "BEAT09",
+   "step": 2,
+   "desc": "表情が固まる",
+   "emotion": "despair"
+  },
+  {
+   "id": "EXP027",
+   "beat": "BEAT09",
+   "step": 3,
+   "desc": "目が死んでうなだれる",
+   "emotion": "despair"
+  },
+  {
+   "id": "EXP028",
+   "beat": "BEAT10",
+   "step": 1,
+   "desc": "ふと見る",
+   "emotion": "love"
+  },
+  {
+   "id": "EXP029",
+   "beat": "BEAT10",
+   "step": 2,
+   "desc": "目が大きくなる",
+   "emotion": "love"
+  },
+  {
+   "id": "EXP030",
+   "beat": "BEAT10",
+   "step": 3,
+   "desc": "頬染め+目がきらきら",
+   "emotion": "love"
+  },
+  {
+   "id": "EXP031",
+   "beat": "BEAT11",
+   "step": 1,
+   "desc": "余裕の笑み",
+   "emotion": "panic"
+  },
+  {
+   "id": "EXP032",
+   "beat": "BEAT11",
+   "step": 2,
+   "desc": "笑顔のまま汗",
+   "emotion": "panic"
+  },
+  {
+   "id": "EXP033",
+   "beat": "BEAT11",
+   "step": 3,
+   "desc": "目が泳いで硬直",
+   "emotion": "panic"
+  },
+  {
+   "id": "EXP034",
+   "beat": "BEAT12",
+   "step": 1,
+   "desc": "目がとろん",
+   "emotion": "sleepy"
+  },
+  {
+   "id": "EXP035",
+   "beat": "BEAT12",
+   "step": 2,
+   "desc": "こくり…と船をこぐ",
+   "emotion": "sleepy"
+  },
+  {
+   "id": "EXP036",
+   "beat": "BEAT12",
+   "step": 3,
+   "desc": "はっと目を覚ます",
+   "emotion": "sleepy"
+  },
+  {
+   "id": "EXP037",
+   "beat": "BEAT13",
+   "step": 1,
+   "desc": "ふつうの顔",
+   "emotion": "mischief"
+  },
+  {
+   "id": "EXP038",
+   "beat": "BEAT13",
+   "step": 2,
+   "desc": "口角がにやり",
+   "emotion": "mischief"
+  },
+  {
+   "id": "EXP039",
+   "beat": "BEAT13",
+   "step": 3,
+   "desc": "目が三日月の悪い笑み",
+   "emotion": "mischief"
+  },
+  {
+   "id": "EXP040",
+   "beat": "BEAT14",
+   "step": 1,
+   "desc": "ぽかんと見上げる",
+   "emotion": "moved"
+  },
+  {
+   "id": "EXP041",
+   "beat": "BEAT14",
+   "step": 2,
+   "desc": "目が潤む",
+   "emotion": "moved"
+  },
+  {
+   "id": "EXP042",
+   "beat": "BEAT14",
+   "step": 3,
+   "desc": "涙をこぼして微笑む",
+   "emotion": "moved"
+  },
+  {
+   "id": "EXP043",
+   "beat": "BEAT15",
+   "step": 1,
+   "desc": "ぷいと横を向く",
+   "emotion": "pout"
+  },
+  {
+   "id": "EXP044",
+   "beat": "BEAT15",
+   "step": 2,
+   "desc": "ちらっと見る",
+   "emotion": "pout"
+  },
+  {
+   "id": "EXP045",
+   "beat": "BEAT15",
+   "step": 3,
+   "desc": "目が合ってまたぷい",
+   "emotion": "pout"
+  }
+ ],
+ "standin_map": {
+  "EXP007": "P085_front",
+  "EXP008": "P086_front",
+  "EXP009": "P087_front"
+ }
+}

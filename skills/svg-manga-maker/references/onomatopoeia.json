@@ -1,0 +1,815 @@
+{
+ "meta": {
+  "total": 100,
+  "placement_types": {
+   "center_back": "決めゴマ背後に大書き",
+   "edge": "コマ縁に沿わせる",
+   "near_subject": "対象の近く",
+   "balloon_out": "フキダシ外・キャラ口元"
+  },
+  "intensity": "1=小さく控えめ〜5=コマを支配する大きさ",
+  "note": "王道少年・少女・青年漫画で慣用的に使われる定番音喩から選定"
+ },
+ "onomatopoeia": [
+  {
+   "text": "ドン",
+   "category": "衝撃",
+   "meaning": "決めの強調・登場",
+   "placement": "center_back",
+   "style": "極太明朝・巨大",
+   "intensity": 5
+  },
+  {
+   "text": "ドーン",
+   "category": "衝撃",
+   "meaning": "大衝撃・大爆発",
+   "placement": "center_back",
+   "style": "極太・爆発形",
+   "intensity": 5
+  },
+  {
+   "text": "バーン",
+   "category": "衝撃",
+   "meaning": "登場・開放",
+   "placement": "center_back",
+   "style": "太ゴシック",
+   "intensity": 4
+  },
+  {
+   "text": "ズドン",
+   "category": "衝撃",
+   "meaning": "重い一撃",
+   "placement": "center_back",
+   "style": "極太・縦潰し",
+   "intensity": 5
+  },
+  {
+   "text": "ガーン",
+   "category": "衝撃",
+   "meaning": "精神的ショック",
+   "placement": "center_back",
+   "style": "ひび割れ文字",
+   "intensity": 4
+  },
+  {
+   "text": "ドキッ",
+   "category": "衝撃",
+   "meaning": "心臓が跳ねる",
+   "placement": "near_subject",
+   "style": "丸ゴシック中",
+   "intensity": 3
+  },
+  {
+   "text": "ギクッ",
+   "category": "衝撃",
+   "meaning": "図星・動揺",
+   "placement": "near_subject",
+   "style": "角張り",
+   "intensity": 3
+  },
+  {
+   "text": "ハッ",
+   "category": "衝撃",
+   "meaning": "気づき",
+   "placement": "near_subject",
+   "style": "細身・鋭角",
+   "intensity": 2
+  },
+  {
+   "text": "ビクッ",
+   "category": "衝撃",
+   "meaning": "びくつき",
+   "placement": "near_subject",
+   "style": "震え線付き",
+   "intensity": 2
+  },
+  {
+   "text": "ゾクッ",
+   "category": "衝撃",
+   "meaning": "悪寒",
+   "placement": "near_subject",
+   "style": "ギザギザ",
+   "intensity": 3
+  },
+  {
+   "text": "バキッ",
+   "category": "打撃",
+   "meaning": "殴打・破壊",
+   "placement": "near_subject",
+   "style": "割れ文字",
+   "intensity": 5
+  },
+  {
+   "text": "ドカッ",
+   "category": "打撃",
+   "meaning": "蹴り・激突",
+   "placement": "near_subject",
+   "style": "極太",
+   "intensity": 5
+  },
+  {
+   "text": "ガッ",
+   "category": "打撃",
+   "meaning": "掴む・受け",
+   "placement": "near_subject",
+   "style": "太短",
+   "intensity": 4
+  },
+  {
+   "text": "バシッ",
+   "category": "打撃",
+   "meaning": "平手・弾き",
+   "placement": "near_subject",
+   "style": "鋭角",
+   "intensity": 4
+  },
+  {
+   "text": "ドゴォ",
+   "category": "打撃",
+   "meaning": "重撃",
+   "placement": "center_back",
+   "style": "歪み極太",
+   "intensity": 5
+  },
+  {
+   "text": "メキメキ",
+   "category": "打撃",
+   "meaning": "軋み壊れる",
+   "placement": "near_subject",
+   "style": "ひび文字",
+   "intensity": 4
+  },
+  {
+   "text": "グシャ",
+   "category": "打撃",
+   "meaning": "潰れる",
+   "placement": "near_subject",
+   "style": "潰し文字",
+   "intensity": 4
+  },
+  {
+   "text": "ズバッ",
+   "category": "斬撃",
+   "meaning": "斬る",
+   "placement": "near_subject",
+   "style": "斜めシャープ",
+   "intensity": 5
+  },
+  {
+   "text": "ザシュ",
+   "category": "斬撃",
+   "meaning": "刺さる・裂く",
+   "placement": "near_subject",
+   "style": "細鋭",
+   "intensity": 4
+  },
+  {
+   "text": "キン",
+   "category": "斬撃",
+   "meaning": "刃がぶつかる",
+   "placement": "near_subject",
+   "style": "細金属質",
+   "intensity": 3
+  },
+  {
+   "text": "ガキン",
+   "category": "斬撃",
+   "meaning": "強い金属衝突",
+   "placement": "near_subject",
+   "style": "太金属質",
+   "intensity": 4
+  },
+  {
+   "text": "ヒュン",
+   "category": "飛翔",
+   "meaning": "風切り(投擲)",
+   "placement": "edge",
+   "style": "流線付き細字",
+   "intensity": 3
+  },
+  {
+   "text": "ヒュッ",
+   "category": "飛翔",
+   "meaning": "素早い動き",
+   "placement": "edge",
+   "style": "細字",
+   "intensity": 2
+  },
+  {
+   "text": "ビュン",
+   "category": "飛翔",
+   "meaning": "高速移動",
+   "placement": "edge",
+   "style": "流線太字",
+   "intensity": 4
+  },
+  {
+   "text": "シュタッ",
+   "category": "動作",
+   "meaning": "着地",
+   "placement": "near_subject",
+   "style": "締まった太字",
+   "intensity": 3
+  },
+  {
+   "text": "ダッ",
+   "category": "動作",
+   "meaning": "駆け出す",
+   "placement": "near_subject",
+   "style": "斜め太字",
+   "intensity": 4
+  },
+  {
+   "text": "タタタ",
+   "category": "動作",
+   "meaning": "走る足音",
+   "placement": "edge",
+   "style": "小刻み並べ",
+   "intensity": 2
+  },
+  {
+   "text": "ドドド",
+   "category": "動作",
+   "meaning": "突進・地響き",
+   "placement": "edge",
+   "style": "縦積み極太",
+   "intensity": 5
+  },
+  {
+   "text": "バッ",
+   "category": "動作",
+   "meaning": "素早く動く",
+   "placement": "near_subject",
+   "style": "太鋭",
+   "intensity": 3
+  },
+  {
+   "text": "サッ",
+   "category": "動作",
+   "meaning": "素早く静かに",
+   "placement": "near_subject",
+   "style": "細字",
+   "intensity": 2
+  },
+  {
+   "text": "グイッ",
+   "category": "動作",
+   "meaning": "引っ張る",
+   "placement": "near_subject",
+   "style": "太丸",
+   "intensity": 3
+  },
+  {
+   "text": "ガシッ",
+   "category": "動作",
+   "meaning": "がっちり掴む",
+   "placement": "near_subject",
+   "style": "太角",
+   "intensity": 3
+  },
+  {
+   "text": "パシッ",
+   "category": "動作",
+   "meaning": "受け取る",
+   "placement": "near_subject",
+   "style": "中細",
+   "intensity": 2
+  },
+  {
+   "text": "ポン",
+   "category": "動作",
+   "meaning": "肩に手・軽く置く",
+   "placement": "near_subject",
+   "style": "丸小",
+   "intensity": 1
+  },
+  {
+   "text": "ギュッ",
+   "category": "動作",
+   "meaning": "強く握る・抱く",
+   "placement": "near_subject",
+   "style": "丸太",
+   "intensity": 2
+  },
+  {
+   "text": "シーン",
+   "category": "静寂",
+   "meaning": "沈黙",
+   "placement": "edge",
+   "style": "細長・点線風",
+   "intensity": 1
+  },
+  {
+   "text": "ザワザワ",
+   "category": "群衆",
+   "meaning": "ざわめき",
+   "placement": "edge",
+   "style": "小字散らし",
+   "intensity": 2
+  },
+  {
+   "text": "ガヤガヤ",
+   "category": "群衆",
+   "meaning": "喧騒",
+   "placement": "edge",
+   "style": "小字散らし",
+   "intensity": 2
+  },
+  {
+   "text": "ゴゴゴゴ",
+   "category": "威圧",
+   "meaning": "不穏な圧",
+   "placement": "edge",
+   "style": "縦積み岩石風",
+   "intensity": 4
+  },
+  {
+   "text": "ゴォォ",
+   "category": "環境",
+   "meaning": "炎・轟音",
+   "placement": "edge",
+   "style": "揺らぎ太字",
+   "intensity": 4
+  },
+  {
+   "text": "ザァァ",
+   "category": "環境",
+   "meaning": "雨・滝",
+   "placement": "edge",
+   "style": "縦線状",
+   "intensity": 2
+  },
+  {
+   "text": "ポツポツ",
+   "category": "環境",
+   "meaning": "降り始めの雨",
+   "placement": "edge",
+   "style": "小丸点在",
+   "intensity": 1
+  },
+  {
+   "text": "ビュオオ",
+   "category": "環境",
+   "meaning": "強風",
+   "placement": "edge",
+   "style": "流線",
+   "intensity": 3
+  },
+  {
+   "text": "ヒュルル",
+   "category": "環境",
+   "meaning": "冷たい風",
+   "placement": "edge",
+   "style": "細波線",
+   "intensity": 2
+  },
+  {
+   "text": "チュンチュン",
+   "category": "環境",
+   "meaning": "朝の雀",
+   "placement": "edge",
+   "style": "小丸",
+   "intensity": 1
+  },
+  {
+   "text": "ミーンミーン",
+   "category": "環境",
+   "meaning": "蝉・夏",
+   "placement": "edge",
+   "style": "縦並び",
+   "intensity": 1
+  },
+  {
+   "text": "コポコポ",
+   "category": "環境",
+   "meaning": "水音・湯",
+   "placement": "near_subject",
+   "style": "小丸",
+   "intensity": 1
+  },
+  {
+   "text": "パチパチ",
+   "category": "環境",
+   "meaning": "焚き火/拍手",
+   "placement": "near_subject",
+   "style": "小散らし",
+   "intensity": 2
+  },
+  {
+   "text": "ゴロゴロ",
+   "category": "環境",
+   "meaning": "雷鳴",
+   "placement": "edge",
+   "style": "太揺らぎ",
+   "intensity": 3
+  },
+  {
+   "text": "ピカッ",
+   "category": "環境",
+   "meaning": "稲光・閃き",
+   "placement": "center_back",
+   "style": "放射",
+   "intensity": 3
+  },
+  {
+   "text": "ガチャ",
+   "category": "生活",
+   "meaning": "ドアを開ける",
+   "placement": "near_subject",
+   "style": "角字中",
+   "intensity": 2
+  },
+  {
+   "text": "バタン",
+   "category": "生活",
+   "meaning": "ドアが閉まる",
+   "placement": "near_subject",
+   "style": "太字",
+   "intensity": 3
+  },
+  {
+   "text": "コンコン",
+   "category": "生活",
+   "meaning": "ノック",
+   "placement": "near_subject",
+   "style": "中丸",
+   "intensity": 1
+  },
+  {
+   "text": "ピンポーン",
+   "category": "生活",
+   "meaning": "チャイム",
+   "placement": "edge",
+   "style": "丸ゴ",
+   "intensity": 2
+  },
+  {
+   "text": "プルルル",
+   "category": "生活",
+   "meaning": "電話の呼出",
+   "placement": "near_subject",
+   "style": "波線付き",
+   "intensity": 2
+  },
+  {
+   "text": "ピッ",
+   "category": "生活",
+   "meaning": "電子音・操作",
+   "placement": "near_subject",
+   "style": "小角",
+   "intensity": 1
+  },
+  {
+   "text": "カタカタ",
+   "category": "生活",
+   "meaning": "タイピング",
+   "placement": "near_subject",
+   "style": "小刻み",
+   "intensity": 1
+  },
+  {
+   "text": "カチャカチャ",
+   "category": "生活",
+   "meaning": "食器音",
+   "placement": "near_subject",
+   "style": "小刻み",
+   "intensity": 1
+  },
+  {
+   "text": "グツグツ",
+   "category": "生活",
+   "meaning": "煮える",
+   "placement": "near_subject",
+   "style": "丸太小",
+   "intensity": 1
+  },
+  {
+   "text": "ジュー",
+   "category": "生活",
+   "meaning": "焼ける",
+   "placement": "near_subject",
+   "style": "太丸",
+   "intensity": 2
+  },
+  {
+   "text": "ゴクッ",
+   "category": "生活",
+   "meaning": "飲み込む・緊張",
+   "placement": "near_subject",
+   "style": "丸中",
+   "intensity": 2
+  },
+  {
+   "text": "ゴクゴク",
+   "category": "生活",
+   "meaning": "飲む",
+   "placement": "near_subject",
+   "style": "丸並べ",
+   "intensity": 1
+  },
+  {
+   "text": "モグモグ",
+   "category": "生活",
+   "meaning": "食べる",
+   "placement": "near_subject",
+   "style": "丸小",
+   "intensity": 1
+  },
+  {
+   "text": "スー",
+   "category": "生活",
+   "meaning": "寝息",
+   "placement": "balloon_out",
+   "style": "細波",
+   "intensity": 1
+  },
+  {
+   "text": "グーグー",
+   "category": "生活",
+   "meaning": "いびき・熟睡",
+   "placement": "balloon_out",
+   "style": "丸太",
+   "intensity": 1
+  },
+  {
+   "text": "グゥ~",
+   "category": "身体",
+   "meaning": "腹の虫",
+   "placement": "near_subject",
+   "style": "波線丸字",
+   "intensity": 2
+  },
+  {
+   "text": "ドキドキ",
+   "category": "内面",
+   "meaning": "高鳴り・恋",
+   "placement": "near_subject",
+   "style": "丸ゴ並べ",
+   "intensity": 2
+  },
+  {
+   "text": "バクバク",
+   "category": "内面",
+   "meaning": "激しい動悸",
+   "placement": "near_subject",
+   "style": "太丸並べ",
+   "intensity": 3
+  },
+  {
+   "text": "ワクワク",
+   "category": "内面",
+   "meaning": "期待",
+   "placement": "near_subject",
+   "style": "弾む丸字",
+   "intensity": 2
+  },
+  {
+   "text": "ウキウキ",
+   "category": "内面",
+   "meaning": "浮かれ",
+   "placement": "near_subject",
+   "style": "弾む丸字",
+   "intensity": 2
+  },
+  {
+   "text": "キラキラ",
+   "category": "内面",
+   "meaning": "輝き・憧れ",
+   "placement": "near_subject",
+   "style": "星散らし",
+   "intensity": 2
+  },
+  {
+   "text": "ポッ",
+   "category": "内面",
+   "meaning": "頬が染まる",
+   "placement": "near_subject",
+   "style": "丸小",
+   "intensity": 1
+  },
+  {
+   "text": "カァァ",
+   "category": "内面",
+   "meaning": "赤面が広がる",
+   "placement": "near_subject",
+   "style": "放射細字",
+   "intensity": 2
+  },
+  {
+   "text": "モヤモヤ",
+   "category": "内面",
+   "meaning": "釈然としない",
+   "placement": "near_subject",
+   "style": "雲形",
+   "intensity": 2
+  },
+  {
+   "text": "イライラ",
+   "category": "内面",
+   "meaning": "苛立ち",
+   "placement": "near_subject",
+   "style": "トゲ字",
+   "intensity": 3
+  },
+  {
+   "text": "ピキッ",
+   "category": "内面",
+   "meaning": "怒りの青筋",
+   "placement": "near_subject",
+   "style": "ひび小",
+   "intensity": 3
+  },
+  {
+   "text": "プルプル",
+   "category": "内面",
+   "meaning": "怒り/我慢の震え",
+   "placement": "near_subject",
+   "style": "震え線",
+   "intensity": 2
+  },
+  {
+   "text": "ズーン",
+   "category": "内面",
+   "meaning": "落ち込み",
+   "placement": "near_subject",
+   "style": "縦長沈み字",
+   "intensity": 2
+  },
+  {
+   "text": "ガクッ",
+   "category": "内面",
+   "meaning": "脱力・ずっこけ",
+   "placement": "near_subject",
+   "style": "傾き字",
+   "intensity": 2
+  },
+  {
+   "text": "ホッ",
+   "category": "内面",
+   "meaning": "安堵",
+   "placement": "balloon_out",
+   "style": "丸小",
+   "intensity": 1
+  },
+  {
+   "text": "フゥ",
+   "category": "内面",
+   "meaning": "ため息",
+   "placement": "balloon_out",
+   "style": "細字",
+   "intensity": 1
+  },
+  {
+   "text": "ジーッ",
+   "category": "内面",
+   "meaning": "凝視",
+   "placement": "near_subject",
+   "style": "点線付き",
+   "intensity": 1
+  },
+  {
+   "text": "チラッ",
+   "category": "内面",
+   "meaning": "盗み見",
+   "placement": "near_subject",
+   "style": "小字",
+   "intensity": 1
+  },
+  {
+   "text": "ニヤリ",
+   "category": "表情",
+   "meaning": "不敵な笑み",
+   "placement": "near_subject",
+   "style": "歪み中字",
+   "intensity": 2
+  },
+  {
+   "text": "ニコニコ",
+   "category": "表情",
+   "meaning": "笑顔",
+   "placement": "near_subject",
+   "style": "丸字",
+   "intensity": 1
+  },
+  {
+   "text": "ムスッ",
+   "category": "表情",
+   "meaning": "不機嫌",
+   "placement": "near_subject",
+   "style": "太短",
+   "intensity": 2
+  },
+  {
+   "text": "キョトン",
+   "category": "表情",
+   "meaning": "ぽかん",
+   "placement": "near_subject",
+   "style": "丸中",
+   "intensity": 1
+  },
+  {
+   "text": "オロオロ",
+   "category": "内面",
+   "meaning": "うろたえ",
+   "placement": "near_subject",
+   "style": "揺れ字",
+   "intensity": 2
+  },
+  {
+   "text": "ソワソワ",
+   "category": "内面",
+   "meaning": "落ち着かない",
+   "placement": "near_subject",
+   "style": "小刻み",
+   "intensity": 2
+  },
+  {
+   "text": "ヒソヒソ",
+   "category": "会話",
+   "meaning": "ささやき",
+   "placement": "balloon_out",
+   "style": "小細字",
+   "intensity": 1
+  },
+  {
+   "text": "コソコソ",
+   "category": "動作",
+   "meaning": "隠れた動き",
+   "placement": "near_subject",
+   "style": "小細字",
+   "intensity": 1
+  },
+  {
+   "text": "スッ",
+   "category": "動作",
+   "meaning": "静かに差し出す/立つ",
+   "placement": "near_subject",
+   "style": "細字",
+   "intensity": 1
+  },
+  {
+   "text": "フワッ",
+   "category": "動作",
+   "meaning": "浮く・柔らかい動き",
+   "placement": "near_subject",
+   "style": "丸細",
+   "intensity": 1
+  },
+  {
+   "text": "ポカーン",
+   "category": "内面",
+   "meaning": "唖然",
+   "placement": "near_subject",
+   "style": "間延び丸字",
+   "intensity": 2
+  },
+  {
+   "text": "ガタッ",
+   "category": "動作",
+   "meaning": "立ち上がる(反応)",
+   "placement": "near_subject",
+   "style": "太角",
+   "intensity": 3
+  },
+  {
+   "text": "ガタガタ",
+   "category": "動作",
+   "meaning": "震え・揺れ",
+   "placement": "near_subject",
+   "style": "震え並べ",
+   "intensity": 3
+  },
+  {
+   "text": "パァァ",
+   "category": "内面",
+   "meaning": "顔が輝く",
+   "placement": "near_subject",
+   "style": "放射",
+   "intensity": 2
+  },
+  {
+   "text": "シュン",
+   "category": "内面",
+   "meaning": "しょげる",
+   "placement": "near_subject",
+   "style": "縮み字",
+   "intensity": 1
+  },
+  {
+   "text": "ジタバタ",
+   "category": "動作",
+   "meaning": "もがく",
+   "placement": "near_subject",
+   "style": "散らし",
+   "intensity": 2
+  },
+  {
+   "text": "ペコリ",
+   "category": "動作",
+   "meaning": "お辞儀",
+   "placement": "near_subject",
+   "style": "丸小",
+   "intensity": 1
+  }
+ ]
+}

@@ -1,0 +1,983 @@
+{
+ "meta": {
+  "total": 42,
+  "asset_convention": "characters/<slug>/poses/P###_angle.svg, characters/<slug>/expr/EXP###.svg",
+  "order_workflow": "発注プロンプト(sheets/)のキャラ記述を差し替え→600DPI白地黒線PNG→process_sheet.py",
+  "ref_note": "ref_imageはCC0公式イラスト。GPT発注時の参照画像として添付する",
+  "order_rules": [
+   "各カット間に十分な余白(接触・重なり・はみ出し禁止)",
+   "黒一色線画・白背景・塗りトーンなし",
+   "同一頭身・同一カットサイズ",
+   "通し番号は絵から離して左上",
+   "600DPI相当の高解像度PNGで納品"
+  ]
+ },
+ "characters": [
+  {
+   "id": "#001",
+   "name_ja": "刃",
+   "name_en": "Jin",
+   "clan": "伊賀",
+   "ninjutsu": "火遁",
+   "weapon": "手裏剣",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/001.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/001.jpg",
+   "asset_dir": "characters/001_jin",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#005",
+   "name_ja": "金鬼",
+   "name_en": "Kana-Oni",
+   "clan": "伊賀",
+   "ninjutsu": "金遁",
+   "weapon": "牛刀",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/005.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/005.jpg",
+   "asset_dir": "characters/005_kana_oni",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#009",
+   "name_ja": "餡音",
+   "name_en": "Anne",
+   "clan": "伊賀",
+   "ninjutsu": "影縫い",
+   "weapon": "団子",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/009.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/009.jpg",
+   "asset_dir": "characters/009_anne",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#012",
+   "name_ja": "酉花",
+   "name_en": "Torika",
+   "clan": "伊賀",
+   "ninjutsu": "毒手裏剣",
+   "weapon": "手裏剣",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/012.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/012.jpg",
+   "asset_dir": "characters/012_torika",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#014",
+   "name_ja": "ハヤテ",
+   "name_en": "Hayate",
+   "clan": "伊賀",
+   "ninjutsu": "鷹の目",
+   "weapon": "鷹",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/014.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/014.jpg",
+   "asset_dir": "characters/014_hayate",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#017",
+   "name_ja": "結",
+   "name_en": "Yui",
+   "clan": "伊賀",
+   "ninjutsu": "桜吹雪",
+   "weapon": "巻物",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/017.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/017.jpg",
+   "asset_dir": "characters/017_yui",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#019",
+   "name_ja": "令",
+   "name_en": "Rei",
+   "clan": "伊賀",
+   "ninjutsu": "人身御供",
+   "weapon": "匕首",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/019.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/019.jpg",
+   "asset_dir": "characters/019_rei",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#027",
+   "name_ja": "カルラ",
+   "name_en": "Karura",
+   "clan": "伊賀",
+   "ninjutsu": "雷遁",
+   "weapon": "羽",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/027.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/027.jpg",
+   "asset_dir": "characters/027_karura",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#031",
+   "name_ja": "紫苑",
+   "name_en": "Shion",
+   "clan": "伊賀",
+   "ninjutsu": "野アザミ",
+   "weapon": "鉤爪",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/031.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/031.jpg",
+   "asset_dir": "characters/031_shion",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#038",
+   "name_ja": "石舟斎",
+   "name_en": "Sekishusai",
+   "clan": "伊賀",
+   "ninjutsu": "無刀取り",
+   "weapon": "大典太",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/038.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/038.jpg",
+   "asset_dir": "characters/038_sekishusai",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#002",
+   "name_ja": "咲耶",
+   "name_en": "Sakuya",
+   "clan": "甲賀",
+   "ninjutsu": "口寄せ",
+   "weapon": "手裏剣",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/002.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/002.jpg",
+   "asset_dir": "characters/002_sakuya",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#006",
+   "name_ja": "於兎",
+   "name_en": "Oto",
+   "clan": "甲賀",
+   "ninjutsu": "口寄せ",
+   "weapon": "巻物",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/006.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/006.jpg",
+   "asset_dir": "characters/006_oto",
+   "assets": {
+    "poses": {
+     "done": 438,
+     "total": 450,
+     "status": "partial(P087_back/low,P089,P090 要再発注)"
+    },
+    "expressions": {
+     "done": 45,
+     "total": 45,
+     "status": "complete"
+    }
+   }
+  },
+  {
+   "id": "#015",
+   "name_ja": "宇迦",
+   "name_en": "Uka",
+   "clan": "甲賀",
+   "ninjutsu": "九尾の焔",
+   "weapon": "護符",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/015.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/015.jpg",
+   "asset_dir": "characters/015_uka",
+   "assets": {
+    "poses": {
+     "done": 450,
+     "total": 450,
+     "status": "complete"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "ordered"
+    }
+   }
+  },
+  {
+   "id": "#016",
+   "name_ja": "岩爺",
+   "name_en": "Ganzi",
+   "clan": "甲賀",
+   "ninjutsu": "幻術・漆黒",
+   "weapon": "数珠",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/016.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/016.jpg",
+   "asset_dir": "characters/016_ganzi",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#026",
+   "name_ja": "ネム",
+   "name_en": "NEMU",
+   "clan": "甲賀",
+   "ninjutsu": "動植綵絵",
+   "weapon": "絵筆",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/026.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/026.jpg",
+   "asset_dir": "characters/026_nemu",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#028",
+   "name_ja": "シャオラン",
+   "name_en": "Xiaolan",
+   "clan": "甲賀",
+   "ninjutsu": "口寄せ",
+   "weapon": "太極拳",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/028.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/028.jpg",
+   "asset_dir": "characters/028_xiaolan",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#030",
+   "name_ja": "コンガ",
+   "name_en": "Konga",
+   "clan": "甲賀",
+   "ninjutsu": "影分身",
+   "weapon": "拳",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/030.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/030.jpg",
+   "asset_dir": "characters/030_konga",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#036",
+   "name_ja": "おえん",
+   "name_en": "oen",
+   "clan": "甲賀",
+   "ninjutsu": "糸脈",
+   "weapon": "笈",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/036.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/036.jpg",
+   "asset_dir": "characters/036_oen",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#037",
+   "name_ja": "イズナ",
+   "name_en": "Izuna",
+   "clan": "甲賀",
+   "ninjutsu": "飯綱の法",
+   "weapon": "なし",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/037.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/037.jpg",
+   "asset_dir": "characters/037_izuna",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#003",
+   "name_ja": "狐白",
+   "name_en": "Kohaku",
+   "clan": "風魔",
+   "ninjutsu": "変わり身",
+   "weapon": "刀",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/003.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/003.jpg",
+   "asset_dir": "characters/003_kohaku",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#007",
+   "name_ja": "呂屯",
+   "name_en": "Rotten",
+   "clan": "風魔",
+   "ninjutsu": "毒霧",
+   "weapon": "毒矢",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/007.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/007.jpg",
+   "asset_dir": "characters/007_rotten",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#010",
+   "name_ja": "断",
+   "name_en": "Dan",
+   "clan": "風魔",
+   "ninjutsu": "閃光",
+   "weapon": "閃光刀",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/010.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/010.jpg",
+   "asset_dir": "characters/010_dan",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#013",
+   "name_ja": "アトザ",
+   "name_en": "Atoza",
+   "clan": "風魔",
+   "ninjutsu": "逢魔刻",
+   "weapon": "棍棒",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/013.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/013.jpg",
+   "asset_dir": "characters/013_atoza",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#022",
+   "name_ja": "蛇ノ目",
+   "name_en": "Janome",
+   "clan": "風魔",
+   "ninjutsu": "口寄せ",
+   "weapon": "毒手裏剣",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/022.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/022.jpg",
+   "asset_dir": "characters/022_janome",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#024",
+   "name_ja": "カルマ",
+   "name_en": "Karma",
+   "clan": "風魔",
+   "ninjutsu": "領域・罪業",
+   "weapon": "鎖鎌",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/024.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/024.jpg",
+   "asset_dir": "characters/024_karma",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#029",
+   "name_ja": "アウン",
+   "name_en": "Aum",
+   "clan": "風魔",
+   "ninjutsu": "巨人の一撃",
+   "weapon": "棍棒",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/029.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/029.jpg",
+   "asset_dir": "characters/029_aum",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#035",
+   "name_ja": "イブキ",
+   "name_en": "Ibuki",
+   "clan": "風魔",
+   "ninjutsu": "泰山府君祭",
+   "weapon": "呪符",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/035.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/035.jpg",
+   "asset_dir": "characters/035_ibuki",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#004",
+   "name_ja": "柴",
+   "name_en": "Shiba",
+   "clan": "雑賀",
+   "ninjutsu": "水遁",
+   "weapon": "空手",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/004.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/004.jpg",
+   "asset_dir": "characters/004_shiba",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#008",
+   "name_ja": "凪紗",
+   "name_en": "Nagisa",
+   "clan": "雑賀",
+   "ninjutsu": "影分身",
+   "weapon": "巻物",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/008.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/008.jpg",
+   "asset_dir": "characters/008_nagisa",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#011",
+   "name_ja": "雛之丞",
+   "name_en": "Hinanojoh",
+   "clan": "雑賀",
+   "ninjutsu": "火遁",
+   "weapon": "焙烙玉",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/011.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/011.jpg",
+   "asset_dir": "characters/011_hinanojoh",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#018",
+   "name_ja": "風太",
+   "name_en": "Fuuta",
+   "clan": "雑賀",
+   "ninjutsu": "風遁",
+   "weapon": "正宗",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/018.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/018.jpg",
+   "asset_dir": "characters/018_fuuta",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#021",
+   "name_ja": "猫又",
+   "name_en": "Nekomata",
+   "clan": "雑賀",
+   "ninjutsu": "影分身の術",
+   "weapon": "妖刀村正",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/021.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/021.jpg",
+   "asset_dir": "characters/021_nekomata",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#023",
+   "name_ja": "弁天",
+   "name_en": "Benten",
+   "clan": "雑賀",
+   "ninjutsu": "祝詞",
+   "weapon": "三味線",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/023.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/023.jpg",
+   "asset_dir": "characters/023_benten",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#025",
+   "name_ja": "イチヤ",
+   "name_en": "Ichiya",
+   "clan": "雑賀",
+   "ninjutsu": "忍びいろは",
+   "weapon": "筆",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/025.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/025.jpg",
+   "asset_dir": "characters/025_ichiya",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#032",
+   "name_ja": "瀬織",
+   "name_en": "Seori",
+   "clan": "雑賀",
+   "ninjutsu": "丑の刻参り",
+   "weapon": "木槌",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/032.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/032.jpg",
+   "asset_dir": "characters/032_seori",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#033",
+   "name_ja": "久遠",
+   "name_en": "Quon",
+   "clan": "雑賀",
+   "ninjutsu": "猫の目の選択",
+   "weapon": "鬼火",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/033.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/033.jpg",
+   "asset_dir": "characters/033_quon",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#034",
+   "name_ja": "孫市",
+   "name_en": "Magoichi",
+   "clan": "雑賀",
+   "ninjutsu": "一発必中",
+   "weapon": "銃",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/034.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/034.jpg",
+   "asset_dir": "characters/034_magoichi",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#020",
+   "name_ja": "サットヴァ",
+   "name_en": "Sattva",
+   "clan": "天界",
+   "ninjutsu": "涅槃",
+   "weapon": "円光",
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/020.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/020.jpg",
+   "asset_dir": "characters/020_sattva",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#039",
+   "name_ja": "ささがね",
+   "name_en": "Sasagane",
+   "clan": "根の国",
+   "ninjutsu": null,
+   "weapon": null,
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/039.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/039.jpg",
+   "asset_dir": "characters/039_sasagane",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#040",
+   "name_ja": "ゴコウ",
+   "name_en": "Gokou",
+   "clan": "根の国",
+   "ninjutsu": null,
+   "weapon": null,
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/040.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/040.jpg",
+   "asset_dir": "characters/040_gokou",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#041",
+   "name_ja": "シンラ",
+   "name_en": "Shinra",
+   "clan": "根の国",
+   "ninjutsu": null,
+   "weapon": null,
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/041.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/041.jpg",
+   "asset_dir": "characters/041_shinra",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  },
+  {
+   "id": "#042",
+   "name_ja": "サスラ",
+   "name_en": "Sasura",
+   "clan": "根の国",
+   "ninjutsu": null,
+   "weapon": null,
+   "ref_image": "https://cn-lore-mcp.nubonba.workers.dev/images/042.jpg",
+   "ref_image_3d": "https://cn-lore-mcp.nubonba.workers.dev/images/3d/042.jpg",
+   "asset_dir": "characters/042_sasura",
+   "assets": {
+    "poses": {
+     "done": 0,
+     "total": 450,
+     "status": "not_started"
+    },
+    "expressions": {
+     "done": 0,
+     "total": 45,
+     "status": "not_started"
+    }
+   }
+  }
+ ]
+}
