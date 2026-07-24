@@ -1497,6 +1497,71 @@
    ],
    "typical_use": "和風演出・扉絵",
    "id": "BG100"
+  },
+  {
+   "category": "屋内",
+   "name_ja": "作業デスク(PC・ランプ)",
+   "setting": "indoor",
+   "mood_tags": [
+    "daily"
+   ],
+   "key_elements": [
+    "作業デスク(PC・ランプ)"
+   ],
+   "typical_use": "営業漫画・解説",
+   "id": "BGB01"
+  },
+  {
+   "category": "屋内",
+   "name_ja": "ブラウザ画面UI",
+   "setting": "indoor",
+   "mood_tags": [
+    "daily"
+   ],
+   "key_elements": [
+    "ブラウザ画面UI"
+   ],
+   "typical_use": "営業漫画・解説",
+   "id": "BGB02"
+  },
+  {
+   "category": "屋内",
+   "name_ja": "散らかった机(挫折)",
+   "setting": "indoor",
+   "mood_tags": [
+    "daily"
+   ],
+   "key_elements": [
+    "散らかった机(挫折)"
+   ],
+   "typical_use": "営業漫画・解説",
+   "id": "BGB03"
+  },
+  {
+   "category": "屋内",
+   "name_ja": "書斎・本棚",
+   "setting": "indoor",
+   "mood_tags": [
+    "daily"
+   ],
+   "key_elements": [
+    "書斎・本棚"
+   ],
+   "typical_use": "営業漫画・解説",
+   "id": "BGB04"
+  },
+  {
+   "category": "屋内",
+   "name_ja": "舞台幕",
+   "setting": "indoor",
+   "mood_tags": [
+    "daily"
+   ],
+   "key_elements": [
+    "舞台幕"
+   ],
+   "typical_use": "営業漫画・解説",
+   "id": "BGB05"
   }
  ]
 }
