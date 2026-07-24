@@ -9,7 +9,7 @@ on:
       tag:
         description: "リリースのタグ名"
         required: true
-        default: "skill-svg-manga-maker-v1.0.2"
+        default: "skill-svg-manga-maker-v1.0.3"
 
 permissions:
   contents: write
