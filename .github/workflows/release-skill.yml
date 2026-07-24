@@ -1,0 +1,47 @@
+name: Release Skill
+
+on:
+  push:
+    tags:
+      - "skill-*"
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "リリースのタグ名"
+        required: true
+        default: "skill-svg-manga-maker-v1.0.0"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build skill zip
+        run: |
+          cd skills
+          zip -r ../svg-manga-maker-skill.zip svg-manga-maker -x "*.pyc"
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.event_name == 'workflow_dispatch' && inputs.tag || github.ref_name }}
+          files: |
+            svg-manga-maker-skill.zip
+            assets/svg_manga_kit.zip
+          generate_release_notes: true
+          body: |
+            ## svg-manga-maker スキル
+
+            小説からSVG漫画を自動生成するClaude Codeスキル（辞書駆動ネーム方式）。
+
+            ### インストール
+            1. `svg-manga-maker-skill.zip` をダウンロードして展開
+            2. `svg-manga-maker/` フォルダを `~/.claude/skills/` に配置
+            3. Claude Codeを再起動
+
+            ### 素材ZIPについて
+            `svg_manga_kit.zip`（ポーズ・背景・表情・オノマトペ等のSVGセル実データ）をダウンロードし、スキルの指示に従って配置してください。
