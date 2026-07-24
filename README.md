@@ -31,6 +31,10 @@ claude mcp add NINJAMCP -- node /path/to/MCP/dist/index.js
 
 ### Claude Desktop（claude_desktop_config.json）
 
+設定ファイルの場所:
+- macOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
+- Windows: `%APPDATA%\Claude\claude_desktop_config.json`
+
 ```json
 {
   "mcpServers": {
@@ -41,6 +45,28 @@ claude mcp add NINJAMCP -- node /path/to/MCP/dist/index.js
   }
 }
 ```
+
+追記後、Claude Desktop を再起動すると 🔌 アイコンにツールが表示されます。
+
+### OpenAI Codex CLI（~/.codex/config.toml）
+
+```toml
+[mcp_servers.ninjamcp]
+command = "node"
+args = ["/path/to/MCP/dist/index.js"]
+```
+
+または CLI から:
+
+```bash
+codex mcp add ninjamcp -- node /path/to/MCP/dist/index.js
+```
+
+### その他の MCP クライアント（Cursor / Windsurf など）
+
+stdio トランスポート対応のクライアントなら同じ形式で登録できます。コマンドは共通で `node /path/to/MCP/dist/index.js` です。
+
+> `/path/to/MCP` は、このリポジトリを clone した実際のパスに置き換えてください。事前に `npm install && npm run build` が必要です。
 
 ## 開発
 
