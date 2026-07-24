@@ -9,7 +9,7 @@ on:
       tag:
         description: "リリースのタグ名"
         required: true
-        default: "skill-svg-manga-maker-v1.0.1"
+        default: "skill-svg-manga-maker-v1.0.2"
 
 permissions:
   contents: write
@@ -24,10 +24,10 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ github.event_name == 'workflow_dispatch' && inputs.tag || github.ref_name }}
-          files: assets/svg_manga_kit.zip
+          files: assets/svg_manga_kit_protected.zip
           body: |
-            ## SVG漫画メーカー キット
+            ## SVG漫画メーカー キット（パスワード付き）
 
-            小説からSVG漫画を自動生成する制作環境一式です。`svg_manga_kit.zip` をダウンロードしてください。
+            小説からSVG漫画を自動生成する制作環境一式です。`svg_manga_kit_protected.zip` をダウンロードし、購入者向けに案内されているパスワードで展開してください。
 
             ZIPにはスキル本体（`svg-manga-maker/`）・キャラ素材・背景・オノマトペ・表情セル・サンプルネーム・READMEがすべて同梱されています。セットアップ手順は同梱のREADME.mdを参照してください（最短15分）。
